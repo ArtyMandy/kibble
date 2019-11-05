@@ -1,12 +1,13 @@
 FROM ubuntu:18.04
 
 ENV \
-ES_DB="localhost" \
+ES_DB="127.0.0.1" \
 ES_PORT="9200" \
 DB_NAME="kibble" \
-MAILHOST="localhost:25" \
+MAILHOST="127.0.0.1:25" \
 SHARDS="5" \
-REPLICA="1"
+REPLICA="1" \
+ES_DB_PORT="http://127.0.0.1:9200"
 
 RUN   apt-get update && \
       apt-get install -y \
@@ -14,9 +15,10 @@ RUN   apt-get update && \
       apache2 \
       python3 \
       python3-pip \
-      gunicorn3
+      gunicorn3 \
+      curl
 
-RUN git clone https://github.com/apache/kibble.git /var/www/kibble
+RUN git clone https://github.com/ArtyMandy/kibble.git /var/www/kibble
 
 COPY ./docker-entrypoint.sh /
 
@@ -38,4 +40,4 @@ RUN echo "<VirtualHost *:80>\n\
 
 RUN chmod +x /docker-entrypoint.sh
 
-ENTRYPOINT ["/docker-entrypoint.sh"]
+ENTRYPOINT /docker-entrypoint.sh ${ES_DB_PORT}

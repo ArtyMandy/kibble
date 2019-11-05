@@ -1,2 +1,24 @@
 #gunicorn3 -w 10 -b 127.0.0.1:8000 handler:application -t 120 -D
 #gunicorn3 --log-file=- handler:application
+version: '3.0'
+services:
+  kibbleserver:
+    image: kibbleserver:latest
+    container_name: kibbleserver
+    restart: always
+    environment:
+      - ES_DB=http://elasticsearch:9200
+      - ES_PORT=9200
+      - ES_DB_PORT=elasticsearch:9200
+    ports:
+      - "80:80"
+      - "8000:8000"
+    depends_on:
+      - elasticsearch
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.4.2
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+    ports:
+      - "9200:9200"
