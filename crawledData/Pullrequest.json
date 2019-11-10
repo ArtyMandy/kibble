@@ -1,0 +1,22 @@
+{
+  "id": "5c4c9e36da6b54f2aa6580ece7b84524ef8953abc17e80bb2c15df37",
+  "key": "97",
+  "issuetype": "pullrequest",
+  "organisation": "testorganization",
+  "sourceID": "1c3a77634880ba46f8cde65ea2a5cb8aeaf165b8d1f70cf42095fd4c",
+  "url": "https://github.com/chaoss/grimoirelab-kingarthur/pull/97",
+  "status": "closed",
+  "labels": [],
+  "created": 1571818977.0,
+  "closed": 1571825193.0,
+  "issueCloser": "mafesan@invalid.github.com",
+  "createdDate": "2019/10/23 09:22:57",
+  "closedDate": "2019/10/23 11:06:33",
+  "changeDate": "2019/10/23 11:06:33",
+  "assignee": "mafesan@invalid.github.com",
+  "issueCreator": "mafesan@invalid.github.com",
+  "comments": 1,
+  "title": "[scheduler] Remove 'arthur' prefix from job ids schema",
+  "doctype": "issue",
+  "@version": 1
+}

@@ -1,0 +1,25 @@
+
+{
+  "id": "9acf0756a3b14e64c8b759dc8154396b64b00976fd41b46851ea18c2",
+  "key": "75",
+  "issuetype": "issue",
+  "organisation": "testorganization",
+  "sourceID": "1c3a77634880ba46f8cde65ea2a5cb8aeaf165b8d1f70cf42095fd4c",
+  "url": "https://github.com/chaoss/grimoirelab-kingarthur/issues/75",
+  "status": "closed",
+  "labels": [
+    "enhancement"
+  ],
+  "created": 1569235351.0,
+  "closed": 1571583235.0,
+  "issueCloser": "sduenas@invalid.github.com",
+  "createdDate": "2019/09/23 11:42:31",
+  "closedDate": "2019/10/20 15:53:55",
+  "changeDate": "2019/10/20 15:53:55",
+  "assignee": "sduenas@invalid.github.com",
+  "issueCreator": "sduenas@invalid.github.com",
+  "comments": 2,
+  "title": "Use Perceval summary",
+  "doctype": "issue",
+  "@version": 1
+}

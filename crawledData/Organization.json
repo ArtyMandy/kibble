@@ -1,0 +1,12 @@
+{
+  "id": "SecondTestOrg",
+  "name": "SecondTestOrg",
+  "description": "description of second TestOrg",
+  "admins": []
+}
+{
+  "id": "testorganization",
+  "name": "Testorganization",
+  "description": "testorganization",
+  "admins": []
+}

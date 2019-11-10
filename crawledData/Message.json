@@ -1,0 +1,13 @@
+{
+  "organisation": "testorganization",
+  "sourceURL": "http://lists.linuxfoundation.org/pipermail/grimoirelab-discussions/",
+  "sourceID": "e06585e96689f648263ef5e2665ae18305a51e658b328e5e77245f1a",
+  "date": "2019/02/22 10:54:33",
+  "sender": "jgb@bitergia.com",
+  "subject": "[GrimoireLab-disc] Proposal for a new module in GrimoireLab:\n Graal",
+  "address": "jgb@bitergia.com",
+  "ts": 1550832873,
+  "id": "<a9ad1f8fe8b8bca30ff58b98942d853bd6004524.camel@bitergia.com>",
+  "doctype": "email",
+  "@version": 1
+}

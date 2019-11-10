@@ -1,0 +1,22 @@
+
+{
+  "id": "1c3a77634880ba46f8cde65ea2a5cb8aeaf165b8d1f70cf42095fd4c/96a060ee1beb2685882bb60522da0825950a2f2e",
+  "sourceID": "1c3a77634880ba46f8cde65ea2a5cb8aeaf165b8d1f70cf42095fd4c",
+  "sourceURL": "https://github.com/chaoss/grimoirelab-kingarthur.git",
+  "organisation": "testorganization",
+  "ts": 1571749294,
+  "tsday": 1571702400,
+  "date": "2019/10/22 13:01:34",
+  "committer_name": "Santiago Dueñas",
+  "committer_email": "sduenas@bitergia.com",
+  "author_name": "Valerio Cosentino",
+  "author_email": "valcos@bitergia.com",
+  "insertions": 2,
+  "deletions": 0,
+  "vcs": "git",
+  "files_changed": [
+    "bin/arthurd"
+  ],
+  "doctype": "code_commit",
+  "@version": 1
+}

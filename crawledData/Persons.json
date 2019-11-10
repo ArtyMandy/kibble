@@ -1,0 +1,172 @@
+{
+  "took": 7,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 24,
+      "relation": "eq"
+    },
+    "max_score": 1,
+    "hits": [
+      {
+        "_index": "kibble_person",
+        "_type": "_doc",
+        "_id": "3adce925b2dedb2d75b7ae4a45254853f36f32cd",
+        "_score": 1,
+        "_source": {
+          "email": "lcanas@bitergia.com",
+          "id": "3adce925b2dedb2d75b7ae4a45254853f36f32cd",
+          "organisation": "testorganization",
+          "name": "Luis Cañas-Díaz",
+          "upsert": true,
+          "doctype": "person",
+          "@version": 1
+        }
+      },
+      {
+        "_index": "kibble_person",
+        "_type": "_doc",
+        "_id": "2a4faa758d962e3c4bcc93cb1dc1ab2f98bfbb6f",
+        "_score": 1,
+        "_source": {
+          "email": "mafesan@invalid.github.com",
+          "id": "2a4faa758d962e3c4bcc93cb1dc1ab2f98bfbb6f",
+          "organisation": "testorganization",
+          "name": "Miguel Ángel Fernández",
+          "upsert": true,
+          "doctype": "person",
+          "@version": 1
+        }
+      },
+      {
+        "_index": "kibble_person",
+        "_type": "_doc",
+        "_id": "8f09dc9a311c1250f10ca03702bfa4456735ad0a",
+        "_score": 1,
+        "_source": {
+          "email": "pine0207@invalid.github.com",
+          "id": "8f09dc9a311c1250f10ca03702bfa4456735ad0a",
+          "organisation": "testorganization",
+          "name": "pine0207",
+          "upsert": true,
+          "doctype": "person",
+          "@version": 1
+        }
+      },
+      {
+        "_index": "kibble_person",
+        "_type": "_doc",
+        "_id": "1f86c6207c9f63fdf9a13a7a3ac824f04a0a356c",
+        "_score": 1,
+        "_source": {
+          "email": "albertinisg@invalid.github.com",
+          "id": "1f86c6207c9f63fdf9a13a7a3ac824f04a0a356c",
+          "organisation": "testorganization",
+          "name": "Alberto Martín",
+          "upsert": true,
+          "doctype": "person",
+          "@version": 1
+        }
+      },
+      {
+        "_index": "kibble_person",
+        "_type": "_doc",
+        "_id": "b8cdf40924de2ee82375b15572c4ba87f9029597",
+        "_score": 1,
+        "_source": {
+          "upsert": true,
+          "name": "valerio",
+          "email": "valcos@bitergia.com",
+          "address": "valcos@bitergia.com",
+          "organisation": "testorganization",
+          "id": "b8cdf40924de2ee82375b15572c4ba87f9029597",
+          "doctype": "person",
+          "@version": 1
+        }
+      },
+      {
+        "_index": "kibble_person",
+        "_type": "_doc",
+        "_id": "d6156a3097af7788ccec87f709955655cb37fcbd",
+        "_score": 1,
+        "_source": {
+          "upsert": true,
+          "name": "Santiago Dueñas",
+          "email": "sduenas@bitergia.com",
+          "address": "sduenas@bitergia.com",
+          "organisation": "testorganization",
+          "id": "d6156a3097af7788ccec87f709955655cb37fcbd",
+          "doctype": "person",
+          "@version": 1
+        }
+      },
+      {
+        "_index": "kibble_person",
+        "_type": "_doc",
+        "_id": "25b6778eae73bdacf9c63410f6b76afd9dfc508b",
+        "_score": 1,
+        "_source": {
+          "upsert": true,
+          "name": "Cedric Williams",
+          "email": "cewilliams@paypal.com",
+          "address": "cewilliams@paypal.com",
+          "organisation": "testorganization",
+          "id": "25b6778eae73bdacf9c63410f6b76afd9dfc508b",
+          "doctype": "person",
+          "@version": 1
+        }
+      },
+      {
+        "_index": "kibble_person",
+        "_type": "_doc",
+        "_id": "8d8307d73fcaa3166ae6578c1b2048576cda4986",
+        "_score": 1,
+        "_source": {
+          "email": "alvarodelcastillo@gmail.com",
+          "id": "8d8307d73fcaa3166ae6578c1b2048576cda4986",
+          "organisation": "testorganization",
+          "name": "Alvaro del Castillo",
+          "upsert": true,
+          "doctype": "person",
+          "@version": 1
+        }
+      },
+      {
+        "_index": "kibble_person",
+        "_type": "_doc",
+        "_id": "9183e874a2a71d42027a3bf0893521e88f543609",
+        "_score": 1,
+        "_source": {
+          "email": "FredaPinto@invalid.github.com",
+          "id": "9183e874a2a71d42027a3bf0893521e88f543609",
+          "organisation": "testorganization",
+          "name": "FredaPinto",
+          "upsert": true,
+          "doctype": "person",
+          "@version": 1
+        }
+      },
+      {
+        "_index": "kibble_person",
+        "_type": "_doc",
+        "_id": "0c833e7678563f56c933522cf94de0b06a08ac4f",
+        "_score": 1,
+        "_source": {
+          "email": "olblak@invalid.github.com",
+          "id": "0c833e7678563f56c933522cf94de0b06a08ac4f",
+          "organisation": "testorganization",
+          "name": "Olblak",
+          "upsert": true,
+          "doctype": "person",
+          "@version": 1
+        }
+      }
+    ]
+  }
+}
