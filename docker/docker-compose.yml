@@ -1,5 +1,3 @@
-#gunicorn3 -w 10 -b 127.0.0.1:8000 handler:application -t 120 -D
-#gunicorn3 --log-file=- handler:application
 version: '3.0'
 services:
   kibbleserver:
